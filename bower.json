@@ -1,0 +1,28 @@
+{
+  "name": "Atem-Logging",
+  "version": "0.0.0",
+  "homepage": "https://github.com/graphicore/Atem-Logging",
+  "authors": [
+    "Lasse Fister <commander@graphicore.de>"
+  ],
+  "description": "Versatile logging facility based on util-logging adding some specifics for Atem",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "logging"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "util-logging-amd": "graphicore/util-logging-amd",
+    "js-yaml": ">=3.5.5"
+  }
+}
